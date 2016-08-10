@@ -3,13 +3,10 @@ var webpack = require('webpack'),
 
 module.exports = {
   entry: {
-    reports : "./public/assets/js/reports.js",
-    prints  : "./public/assets/js/prints.js",
-    forms   : "./public/assets/js/forms.js",
-    element : "./public/assets/js/element/element.js",
+    reports : "./game",
   },
   output: {
-    path     : path.join(__dirname, "/public/assets/build"),
+    path     : path.join(__dirname, "/build"),
     filename : "[name].js",
     chunkFilename: "[id].chunk.js"
   },

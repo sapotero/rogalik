@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/sapotero/rogalik/issues"
   },
-  "homepage": "https://github.com/sapotero/rogalik#readme"
+  "homepage": "https://github.com/sapotero/rogalik#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
 }
