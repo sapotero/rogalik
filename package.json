@@ -1,0 +1,23 @@
+{
+  "name": "rogalik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapotero/rogalik.git"
+  },
+  "keywords": [
+    "roguelike",
+    "game"
+  ],
+  "author": "Sapotero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sapotero/rogalik/issues"
+  },
+  "homepage": "https://github.com/sapotero/rogalik#readme"
+}
