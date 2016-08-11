@@ -2,7 +2,20 @@
   <head>
     <title></title>
     <style></style>
+    <script type="text/javascript" src="./build/game.js"></script>
   </head>
   <body>
+  <canvas id="core" width=320 height=320></canvas>
+  <script type="text/javascript">
+      var core = new Core({
+        core: {
+
+        },
+        map : {
+          style : 'random',
+          size  : 20
+        }
+      });
+  </script>
   </body>
 </html>

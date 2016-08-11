@@ -1,8 +1,7 @@
 var Player = function( config ){
-  this.start();
 }
 
-Player.prototype.start = function() {
+Player.prototype.bindKeys = function() {
 };
 
 module.exports = Player

@@ -3,12 +3,14 @@ var webpack = require('webpack'),
 
 module.exports = {
   entry: {
-    reports : "./game",
+    game : "./game",
   },
   output: {
     path     : path.join(__dirname, "/build"),
     filename : "[name].js",
-    chunkFilename: "[id].chunk.js"
+    chunkFilename : "[id].chunk.js",
+    libraryTarget : "var",
+    library       : "Core"
   },
   module: {
     loaders: [
